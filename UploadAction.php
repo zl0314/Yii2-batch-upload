@@ -4,6 +4,18 @@ namespace common\widgets\batch_upload;
  * @author Aaron Zhanglong <815818648@qq.com>
  * 多图上传组件
  * @Date: 2017-07-14
+ * @usage :
+ * 模板页面： <?=$form->field($model, 'pics')->widget('common\widgets\batch_upload\FileUpload')?>
+ *
+ * 上传图片控制器脚本：
+ *
+ * public function actions() {
+        return [
+            'upload_more'=>[
+                'class' => 'common\widgets\batch_upload\UploadAction'
+            ]
+        ];
+    }
  */
 
 use Yii;

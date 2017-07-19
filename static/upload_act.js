@@ -36,11 +36,7 @@ new AjaxUpload($("#pics_button"),{
             return false;
         }else{
             //判断图片是否合法
-            var oid = 'Filedata_e';
-            if(typeof(t) != 'undefined'){
-                oid = t;
-            }
-            var oFile = document.getElementById(t).files[0];
+            var oFile = document.getElementById(oid).files[0];
             if(parseInt(oFile.size) > allow_size ){
                 var size = allow_size / 1024 / 1024;
                 alert('大小不能超过'+( Math.round(size*10)/10)+'M');
