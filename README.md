@@ -13,7 +13,11 @@ UploadAction.php文件内有使用说明，请进行参考。
 上传图片插件为AjaxUpload3.9，无刷新上传图片，使用前， 请查看config.php进行配置，默认【图片表单名称】为fileData
 
 #实现预览
+
 功能实现
+
 ![image](screenshot/pic1.jpg)
+
 小部件存放目录
+
 ![image](screenshot/pic2.jpg)
